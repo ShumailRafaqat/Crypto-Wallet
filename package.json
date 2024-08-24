@@ -1,0 +1,27 @@
+{
+  "name": "my_wallet",
+  "version": "1.0.0",
+  "description": "A website that connects to a crypto wallet and displays the balance.",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html",
+    "deploy": "vercel --prod"
+  },
+  "keywords": [
+    "crypto",
+    "wallet",
+    "ethereum",
+    "web3"
+  ],
+  "author": "Shumail",
+  "license": "ISC",
+  "dependencies": {
+    "@metamask/onboarding": "^1.0.1",
+    "ethers": "^5.7.2"
+  },
+  "devDependencies": {
+    "parcel": "^2.12.0",
+    "process": "^0.11.10"
+  }
+}
